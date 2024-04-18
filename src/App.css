@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.hero {
+  height: 90vh;
+  width: 100vw;
+  border-bottom: 0.5rem solid rgb(46, 44, 44);
+  position: relative;
+}
+
+.bg {
+  height: 90vh;
+  width: 100vw;
+  z-index: -100;
+  object-fit: cover;
+  filter: brightness(30%);
+}
+
+#logo {
+  height: 2.195rem;
+  width: 8.125rem;
+  fill: currentColor;
+}
+
+.head {
+  height: 5.9375rem;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  gap: 4.0625rem;
+  align-items: center;
+  z-index: 1;
+}
+
+.bt {
+  height: 2.1875rem;
+  padding-top: 0.625rem;
+}
+
+#bt1 {
+  color: white;
+  line-height: 1.725rem;
+  /* width: 4rem; */
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.09375rem solid white;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+#bt2 {
+  cursor: pointer;
+  color: white;
+  line-height: 1.725rem;
+  /* width: 4rem; */
+  background-color: red;
+  border: 0.09375rem solid white;
+  border-radius: 0.3125rem;
+}
+
+.body {
+  z-index: 4;
+  position: absolute;
+  margin-top: 48vh;
+  height: 4.79375rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.1875rem;
+}
+
+#a {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#b {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#c {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.inb {
+  width: 29.6875rem;
+  display: flex;
+  gap: 0.625rem;
+  justify-content: space-around;
+}
+
+.inp {
+  width: 15.5625rem;
+  height: 2rem;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 0.0625rem solid rgba(246, 238, 238, 0.5);
+  border-radius: 0.25rem;
+  color: white;
+  padding-left: 0.875rem;
+}
+
+.bt3 {
+  width: 11.21875rem;
+  line-height: 1.3125rem;
+  border: 0.0625rem solid white;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.sect {
+  height: 30.265625rem;
+  background-color: black;
+  border-bottom: 0.5rem solid rgb(46, 44, 44);
+  position: relative;
+  z-index: 1;
+}
+
+.tv {
+  position: absolute;
+  left: 48.4%;
+  height: 30.265625rem;
+  width: 34.6875rem;
+  padding-top: 2.125rem;
+}
+
+.txt2 {
+  position: absolute;
+  color: white;
+  width: 32.5125rem;
+  height: 30.265625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 18.5%;
+  gap: 0.625rem;
+}
+
+.txt2 h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.txt2 h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.vid video {
+  z-index: -1;
+  position: absolute;
+  top: 5.125rem;
+  left: 50.4%;
+  height: 17.96875rem;
+  width: 30rem;
+}
+
+.ip {
+  position: absolute;
+  left: 14.5%;
+  height: 30.265625rem;
+  width: 34.6875rem;
+  padding-top: 2.1875rem;
+}
+
+.txt3 {
+  color: white;
+  width: 30.6375rem;
+  height: 30.265625rem;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.txt3 h1 {
+  font-weight: bolder;
+  font-size: 3.25rem;
+}
+
+.txt3 h2 {
+  font-weight: lighter;
+  font-size: 1.75rem;
+}
+
+.thr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt4 {
+  color: white;
+  width: 30.6375rem;
+  height: 30.265625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.txt4 h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.txt4 h2 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.vid2 video {
+  height: 30.265625rem;
+  width: 30rem;
+  position: absolute;
+  left: 50%;
+  top: -0.5625rem;
+  z-index: -1;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt5 {
+  color: white;
+  width: 31.2625rem;
+  height: 30.265625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.txt5 h1 {
+  font-weight: bolder;
+  font-size: 3.125rem;
+}
+
+.txt5 h2 {
+  font-weight: lighter;
+  font-size: 1.625rem;
+}
+.FAQ {
+  height: 40.5625rem;
+  width: 100vw;
+  background-color: black;
+  border-bottom: 0.5rem solid rgb(46, 44, 44);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2.125rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.FAQ h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.FAQ h2 {
+  font-weight: lighter;
+}
+
+.FAQ .btn {
+  width: 60vw;
+  height: 4.0625rem;
+  background-color: #2d2d2d;
+  display: flex;
+  gap: 20.3125rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem 1.5625rem;
+  transition: all 1s ease-out;
+}
+
+.FAQ svg {
+  filter: invert(1);
+  margin-bottom: 1.25rem;
+}
+
+.FAQ .btn:hover {
+  cursor: pointer;
+  background-color: #414141;
+}
+
+footer {
+  height: 22.6875rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  width: 14.375rem;
+}
+
+.fc {
+  font-size: 0.875rem;
+  display: flex;
+  width: 57.6rem;
+}
+.a11,.a22{
+  display: flex;
+}
+.fc a {
+  color: white;
+}
+
+.q {
+  width: 57.6rem;
+  padding: 2.125rem;
+  font-size: 1rem;
+}
+@media (max-width:1300px){
+  .head{
+  justify-content: space-between;
+  padding-left: 4vw;
+  gap:20px;
+}
+.bt{
+padding-right:10vw ;
+}
+.inb{
+  flex-direction: column;
+  align-items: center;
+  gap:15px;
+}
+.txt{
+  gap:1.8rem;
+}
+#a{
+text-align: center;
+font-size: 32px;
+width: 670px;
+font-weight: 900;
+}
+.hero,.bg{
+  height: 91vh;
+}
+.one{
+  height: 76.7vh;
+}
+.txt2{
+  height:14rem;
+}
+.i1{
+  height: 228px;
+  width: 305px;
+  margin-top: 250px;
+}
+.tv{
+  left:30%;
+}
+.vid video {
+  top: 20.4rem;
+  left: 32.4%;
+  height: 8.25rem;
+  width: 17rem;
+}
+.two{
+  height: 92.25vh;
+}
+.i2{
+  height: 228px;
+  width: 305px;
+}
+.ip {
+  left: 35%;
+  top: -1%;
+}
+.txt3{
+  left: 20%;
+  top: 51.25%;
+}
+.three{
+  height:72vh;
+}
+.vid2 video {
+  top: 40.25vh;
+  left: 38vw;
+  height: 9.25rem;
+  width: 15rem;
+}
+.i3{
+  height: 14.296875rem;
+  width: 19.0625rem;
+  position: absolute;
+  top: 35vh;
+  left: 35vw;
+}
+
+.txt4{
+  position: absolute;
+  top: -26.5%;
+}
+.four{
+  height: 87.5vh;
+  flex-direction: column;
+  gap:64px;
+}
+.txt5{
+  padding-bottom: 5%;
+}
+.i4{
+  width: 305px;
+  height: 228px;
+}
+.kids{
+  padding-top: 40px;
+}
+.FAQ {
+    height: 88vh;
+    gap: 2rem;
+  }
+  
+  .FAQ h1 {
+    font-size: 2.2rem;
+    }
+
+  .FAQ .btn {
+    width: 64vw;
+    gap: 6.3125rem;
+  }
+  
+  .FAQ svg {
+    margin-bottom: 0.25rem;
+  }
+footer {
+  height: 80.5vh;
+}
+.fc {
+  margin-left: 15vw;
+}
+.a1,.a3{
+  padding-bottom: 1.75rem;
+}
+.a11,.a22{
+  width: 50vw;
+  padding-bottom: 10vh;
+  text-align: center;
+  flex-direction: column;
+}
+.q {
+  padding-bottom: 4rem;
+  margin-left: 15vw;
+} 
+}
